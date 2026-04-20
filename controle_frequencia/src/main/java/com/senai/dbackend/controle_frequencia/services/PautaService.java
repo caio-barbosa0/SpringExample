@@ -22,7 +22,7 @@ public class PautaService {
     return pautaRepository.findById(id).get();
    }
 
-   public List<pauta>listarpautas() {
+   public List<pauta> listarpautas() {
 
     return pautaRepository.findAll();
    }   
